@@ -1,0 +1,22 @@
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control input {
+  border: 1px solid #efefef;
+  outline: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-size: 14px;
+  font-family: inherit;
+}

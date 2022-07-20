@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Username Getter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- The Input Form That Gets Email and Age -->
+        <section class="input-section">
+            <form>
+                <div class="form-control">
+                    <input type="text" name="username" id="username" class="username" placeholder="Username">
+                </div>
+                <div class="form-control">
+                    <input type="number" name="age" id="age" class="age" placeholder="Age (Years)">
+                </div>
+                <button type="submit">Add User</button>
+            </form>
+        </section> <!--End of User Form-->
+
+        <!-- The Results Section -->
+        <section class="results-section">
+            <ul class="results-list">
+                <li class="result-item"><span class="result-item__username">Shayan </span><span class="result-item__year">31 Years Old</span></li>
+                <li class="result-item"><span class="result-item__username">Shayan </span><span class="result-item__year">31 Years Old</span></li>
+            </ul>
+        </section><!--End of The Results Section-->
+
+        <!-- Modal Box -->
+        <section class="modal-section hidden">
+            <div class="modal-title">Invalid Input</div>
+            <div class="modal-content">
+                Please enter a valid age(>0)
+            </div>
+            <div class="modal-btn-container">
+                <button class="modal-btn">Okay</button>
+            </div>
+        </section>
+        
+    </div> <!-- End of The Container-->
+</body>
+</html>

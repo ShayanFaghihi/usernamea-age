@@ -1,0 +1,21 @@
+button[type="submit"] {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid #18a5c9;
+    color: #333;
+    padding: 10px 1.5rem;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #18a5c9;
+    color: #fff;
+  }
